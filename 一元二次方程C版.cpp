@@ -23,7 +23,7 @@ int main()
 		scanf_s("%f", &C);
 		//判别式计算
 		float Delta = B * B - 4 * A * C;
-		//正式计算
+		//运用公式计算//同学们不行啊 初中的知识
 		if (Delta < 0)
 		{
 			printf("No Solve\n");
@@ -39,7 +39,7 @@ int main()
 			float Solve2 = (-B - sqrt(Delta)) / (2 * (double)A);
 			printf("X1= %f,X2= %f\n", Solve1, Solve2);
 		}
-		//getch属于conio.h sysytem属于stdlib.h
+		//getch属于conio.h system属于stdlib.h
 		printf("Press any key to continue");
 		_getch();
 		system("cls");
